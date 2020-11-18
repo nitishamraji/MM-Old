@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Padauk');
+.MMM-NOAA {
+	width: 230px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.MMM-NOAA .fontClock {
+	color:#ffffff;
+}
+
+.MMM-NOAA .alert{
+	font-size: 15px;
+	color:#ff0000;
+	text-decoration: underline;
+	text-align: center;
+	text-decoration-color: #fff9f9;
+	font-weight: bold;
+	animation: blinker 1s linear infinite;
+}
+.MMM-NOAA .text {
+	border-spacing: 10px 0px;
+    border-collapse: separate;
+    opacity: 1;
+}
+.MMM-NOAA .icon2 {
+  width: 60%;
+  height: 60%;
+}
+.MMM-NOAA .srss{
+	font-family: 'Padauk', sans-serif;
+	 width: 10%;
+     height: 10%;
+}
+.MMM-NOAA .amclock {
+	font-family: 'Padauk', sans-serif;
+	color: #fdfa91;
+	padding-top: 8px;
+}
+.MMM-NOAA .eclock {
+	font-family: 'Padauk', sans-serif;
+	color: #a5dff8;
+	padding-top: 8px;
+}
+.MMM-NOAA .pmclock {
+	font-family: 'Padauk', sans-serif;
+	color: #c7c8cb;
+	padding-top: 8px;
+}
+.MMM-NOAA .wFont {
+	text-align: center;
+	font-family: 'Padauk', sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+}
+.MMM-NOAA .font {
+	font-family: 'Padauk', sans-serif;
+    color: #fafa43;
+}
+
+.wDiv {
+	display: inline-block;
+}
+.MMM-NOAA .img{
+	display: inline-block;
+	text-align: center;
+}
+.MMM-NOAA .fa-calendar {
+  color: #ffffff;
+  font-size: .5em;
+}
+.MMM-NOAA .wi-thermometer {
+  color: #ff0000;
+  font-size: .5em;
+  text-align:center;
+   margin-left: 10px;
+  margin-right: 10px;
+}
+.MMM-NOAA .wi-umbrella {
+  color: #b1bfc0;
+  font-size: .5em;
+  text-align:center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.MMM-NOAA .wi-thermometer-exterior {
+  color: #92bff8;
+  font-size: .5em;
+  text-align:center;
+   margin-left: 10px;
+  margin-right: 10px;
+}
+.MMM-NOAA .wi-humidity {
+  color: #ffffff;
+  font-size: .5em;
+  text-align:center;
+   margin-left: 10px;
+  margin-right: 10px;
+}
+.MMM-NOAA .wi-snowflake-cold {
+  color: #ffffff;
+  font-size: .9em;
+  text-align:center;
+   margin-left: 10px;
+  margin-right: 10px;
+}
+.MMM-NOAA-blur {
+    -webkit-filter: blur(2px) brightness(50%);
+}
+.MMM-NOAA .modal {
+    position: fixed;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+.MMM-NOAA .modal ul {
+    margin: 0px;
+}
