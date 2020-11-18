@@ -1,0 +1,20 @@
+Module.register("test",{
+	// Default module config.
+	defaults: {
+		text: "Hello World!"
+	},
+
+	// Override dom generator.
+	getDom: function() {
+		var wrapper = document.createElement("div");
+		document.createElement("img");
+
+var oImg = document.createElement("img");
+oImg.setAttribute('src', 'http://www.testtrackinglink.com');
+oImg.setAttribute('alt', 'na');
+oImg.setAttribute('height', '1px');
+oImg.setAttribute('width', '1px'mGSNAKA_MhSOdtJ3tNSokhQJQ2RPFRElMELO5a3PWnUadwHobMBF0oqpJzE4FeQVkosyjmBBTXMKHB3sBWPiQyFQpF39VUV47Qsb5sFg707n7BdLv7GlmK19s1T-f-BCe9tH2U7T6K8giAZXbwN1-8bxG-hTsUVcQmKZ_1OUxHVakQEwenKnKsEJLHqnPk1uZXMdjD_O5PLxFy-qQlSz5GXJmSCUgXtdqzKsZ2sJY535akNoq4TCFpSqLo8QX9P-pv3_QvLQ3ibpkhnFkLc9yS_jQ2aayNzIyYd4RneDIJ-MHHN2AB-DMJqdp-lK27FPpiTfLkpTjF9rsvxU4rfy9tBvd8teXYqlm_o5fl5_SlnpgbeNfCvA1A7FCMZCF4PD-CP-1AN08jGmUDs06hslS-0LHkLBmxHgG7TpDhNm0EeIGyhrZr2sSOPx7jbm9pQ7ZG4tP0NXvfeUXy4mF_NLeZIKXZjCA9Y49DSv2g5SWLPQNunWLU=w353-h626-no
+		wrapper.innerHTML = 'testing';
+		return wrapper;
+	}
+});
